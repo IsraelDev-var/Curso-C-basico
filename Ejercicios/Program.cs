@@ -1,4 +1,5 @@
 using System;
+using Tarea1.Ejercicios;
 
 class Program
 {
@@ -14,6 +15,8 @@ class Program
             Console.WriteLine("4. Verificar si un número es primo");
             Console.WriteLine("5. Mostrar impares del 1 al 30");
             Console.WriteLine("6. Mostrar serie Fibonacci hasta 50");
+            Console.WriteLine("7. Programa para organizar numeron");
+            Console.WriteLine("8. Caladora");
             Console.WriteLine("0. Salir");
             Console.Write("Seleccione una opción: ");
 
@@ -40,6 +43,12 @@ class Program
                     break;
                 case "6":
                     Fibonacci.Ejecutar();
+                    break;
+                case "7":
+                    OrdenarNumeros.Ordenar();
+                    break;
+                case "8":
+                    Calculadora.Ejecutar();
                     break;
                 case "0":
                     Console.WriteLine("¡Hasta luego!");
